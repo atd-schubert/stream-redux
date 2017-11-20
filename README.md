@@ -4,6 +4,7 @@
 
 [![Build Status](https://travis-ci.org/atd-schubert/stream-redux.svg?branch=master)](https://travis-ci.org/atd-schubert/stream-redux)
 [![Coverage Status](https://coveralls.io/repos/github/atd-schubert/stream-redux/badge.svg?branch=master)](https://coveralls.io/github/atd-schubert/stream-redux?branch=master)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fatd-schubert%2Fstream-redux.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fatd-schubert%2Fstream-redux?ref=badge_shield)
 
 Handle Redux like node streams, or Redux itself...
 
@@ -108,6 +109,9 @@ Scripts registered in package.json:
 ## License
 
 This library is released under the [ISC License](LICENSE).
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fatd-schubert%2Fstream-redux.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fatd-schubert%2Fstream-redux?ref=badge_large)
 
 ## Links
 
