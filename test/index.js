@@ -1,0 +1,1 @@
+require("../lib/stream-redux.spec");

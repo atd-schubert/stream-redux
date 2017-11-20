@@ -1,0 +1,41 @@
+{
+  "name": "stream-redux",
+  "version": "1.0.0",
+  "description": "Handle Redux like node streams",
+  "main": "lib/index.js",
+  "scripts": {
+    "transpile": "tsc",
+    "lint": "tslint ts/*.ts",
+    "test": "npm run lint && npm run transpile && istanbul cover _mocha -- -- test/*.js",
+    "doc": "typedoc --out ./typedoc/ --mode file ts/"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/atd-schubert/stream-redux.git"
+  },
+  "keywords": [
+    "stream",
+    "redux"
+  ],
+  "author": "Arne Schubert <atd.schubert@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atd-schubert/stream-redux/issues"
+  },
+  "homepage": "https://github.com/atd-schubert/stream-redux#readme",
+  "devDependencies": {
+    "@types/chai": "^4.0.5",
+    "@types/mocha": "^2.2.44",
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1",
+    "redux": "^3.7.2",
+    "tslint": "^5.8.0",
+    "typedoc": "^0.9.0",
+    "typescript": "^2.6.1"
+  },
+  "peerDependencies": {
+    "redux": "^3.7.2"
+  }
+}
