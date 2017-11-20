@@ -8,7 +8,7 @@
 
 Handle Redux like node streams, or Redux itself...
 
-*It implements both interfaces: `Store` of Redux and `Duplex` of node streams*
+*It implements both interfaces: `Store` of Redux and `Duplex` of node streams.*
 
 ## How to use
 
@@ -53,7 +53,7 @@ After calling the `.end()` method you will not be able to use either `.write` no
 typical for streams!
 
 *Note: Take a look at [the official documentation](https://nodejs.org/api/stream.html#stream_class_stream_duplex) for
-further information*
+further information...*
 
 ***Attention: node streams will buffer chunks, or in this case each state. This will maybe overload your RAM. If you
 don't want to use it as readable stream flush it or consider using the default Redux library!***
